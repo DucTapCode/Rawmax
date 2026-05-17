@@ -15,8 +15,9 @@ public class MouseLook : MonoBehaviour
 	{
 		controls = new PlayerControls();
 
-		// Khóa con trỏ chuột vào giữa màn hình game cho chuẩn vibe FPS
+		// Khóa con trỏ chuột vào giữa và tàng hình nó đi
 		Cursor.lockState = CursorLockMode.Locked;
+		Cursor.visible = false;
 	}
 
 	private void OnEnable()
